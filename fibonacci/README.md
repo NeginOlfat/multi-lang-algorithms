@@ -3,7 +3,7 @@
 This repository contains implementations of the Fibonacci function in multiple programming languages, You can choose your preferred language to view the content.
 
 #### Programming Languages:
-[Python](/fibonacci/python/) | [C#](/fibonacci/C#/) | [JavaScript](/fibonacci/javascript/) | [C++](/fibonacci/C++/) | [Java](/fibonacci/javascript/)
+[Python](/fibonacci/python/) | [C#](/fibonacci/csharp/) | [JavaScript](/fibonacci/javascript/) | [C++](/fibonacci/C++/) | [Java](/fibonacci/javascript/)
 
 
 <br />

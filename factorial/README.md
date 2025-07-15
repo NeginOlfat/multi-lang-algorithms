@@ -3,7 +3,7 @@
 This project contains implementations of the factorial function in multiple programming languages. You can choose your preferred language to view the content.
 
 #### Programming Languages:
-[Python](/factorial/python/) | [C#](/factorial/C#/) | [JavaScript](/factorial/javascript/) | [C++](/factorial/C++/) | [Java](/factorial/java/) 
+[Python](/factorial/python/) | [C#](/factorial/csharp/) | [JavaScript](/factorial/javascript/) | [C++](/factorial/C++/) | [Java](/factorial/java/) 
 
 <br />
 

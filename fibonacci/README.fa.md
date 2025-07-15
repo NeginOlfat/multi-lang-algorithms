@@ -3,7 +3,7 @@
 این مخزن پیاده‌سازی‌های مختلف تابع فیبوناچی را در چندین زبان برنامه‌نویسی ارائه می‌دهد. می‌توانید زبان مورد نظر خود را برای مشاهده محتوا انتخاب کنید.
 
 #### زبان‌های برنامه‌نویسی:
-[Python](/fibonacci/python/) | [C#](/fibonacci/C#/) | [JavaScript](/fibonacci/javascript/) | [C++](/fibonacci/C++/) | [Java](/fibonacci/javascript/)
+[Python](/fibonacci/python/) | [C#](/fibonacci/csharp/) | [JavaScript](/fibonacci/javascript/) | [C++](/fibonacci/C++/) | [Java](/fibonacci/javascript/)
 
 <br />
 

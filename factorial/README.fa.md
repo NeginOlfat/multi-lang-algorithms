@@ -3,12 +3,12 @@
 این پروژه شامل پیاده‌سازی تابع فاکتوریل در چندین زبان برنامه‌نویسی است. شما می‌توانید زبان مورد نظر خود را برای مشاهده محتوا انتخاب کنید.
 
 #### زبان‌های برنامه‌نویسی:
-[Python](/factorial/python/) | [C#](/factorial/C#/) | [JavaScript](/factorial/javascript/) | [C++](/factorial/C++/) | [Java](/factorial/java/) 
+[Python](/factorial/python/) | [C#](/factorial/csharp/) | [JavaScript](/factorial/javascript/) | [C++](/factorial/C++/) | [Java](/factorial/java/) 
 
 
 
 #### زبان‌های موجود:
-[English](/README.md)
+[English](/factorial//README.md)
 
 <br/>
 
