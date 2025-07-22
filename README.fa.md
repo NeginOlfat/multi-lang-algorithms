@@ -19,5 +19,4 @@
 ## مسائل
 - [factorial](/factorial/README.fa.md)
 - [fibonacci](/fibonacci/README.fa.md)
-- [FizzBuzz](#)
-- [sorting](#)
+- [sorting](/sorting/README.fa.md)

@@ -19,5 +19,4 @@ This repository aims to provide solutions to common programming challenges and d
 ## Problems
 - [factorial](/factorial/README.md)
 - [fibonacci](/fibonacci/README.md)
-- [FizzBuzz](#)
-- [sorting](#)
+- [sorting](/sorting/README.md)
