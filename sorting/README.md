@@ -65,7 +65,7 @@ Sorted: [11, 12, 22, 25, 34, 64, 90] → Ascending Order
 ### 1. [**Bubble Sort**](/sorting/bubble-sort/README.md)
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order. Simple but inefficient for large lists.
 
-### 2. [**Selection Sort**](#)
+### 2. [**Selection Sort**](/sorting/selection-sort/README.md)
 Finds the smallest element and places it at the beginning. Repeats this process for the remaining unsorted portion.
 
 ### 3. [**Insertion Sort**](#)
