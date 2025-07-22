@@ -62,7 +62,7 @@ Sorted: [11, 12, 22, 25, 34, 64, 90] → Ascending Order
 
 ## 🔍 Brief Description of Each Algorithm
 
-### 1. [**Bubble Sort**](/sorting/README.md)
+### 1. [**Bubble Sort**](/sorting/bubble-sort/README.md)
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order. Simple but inefficient for large lists.
 
 ### 2. [**Selection Sort**](#)
