@@ -71,7 +71,7 @@ Finds the smallest element and places it at the beginning. Repeats this process 
 ### 3. [**Insertion Sort**](/sorting/insertion-sort/README.md)
 Builds the final sorted array one item at a time by inserting each new element into its correct position. Very efficient for small or nearly sorted arrays.
 
-### 4. [**Merge Sort**](#)
+### 4. [**Merge Sort**](/sorting/merge-sort/README.md)
 Uses **divide-and-conquer**: splits the list in half, recursively sorts both halves, then merges them back together. Always has O(n log n) time, making it predictable and stable.
 
 ### 5. [**Quick Sort**](#)
