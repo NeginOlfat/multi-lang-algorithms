@@ -68,7 +68,7 @@ Repeatedly compares adjacent elements and swaps them if they are in the wrong or
 ### 2. [**Selection Sort**](/sorting/selection-sort/README.md)
 Finds the smallest element and places it at the beginning. Repeats this process for the remaining unsorted portion.
 
-### 3. [**Insertion Sort**](#)
+### 3. [**Insertion Sort**](/sorting/insertion-sort/README.md)
 Builds the final sorted array one item at a time by inserting each new element into its correct position. Very efficient for small or nearly sorted arrays.
 
 ### 4. [**Merge Sort**](#)
