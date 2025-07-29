@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 Read this in other languages: [فارسی](/sorting/quick-sort/README.fa.md)
 
+=======
+>>>>>>> 99c1bb51926d76b8bdb027890ad75e188651895d
 # 🔴 Quick Sort Algorithm
 
 A highly efficient **divide-and-conquer** sorting algorithm that works by selecting a "pivot" element and partitioning the array around it.
