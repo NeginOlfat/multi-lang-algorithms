@@ -74,7 +74,7 @@ Builds the final sorted array one item at a time by inserting each new element i
 ### 4. [**Merge Sort**](/sorting/merge-sort/README.md)
 Uses **divide-and-conquer**: splits the list in half, recursively sorts both halves, then merges them back together. Always has O(n log n) time, making it predictable and stable.
 
-### 5. [**Quick Sort**](#)
+### 5. [**Quick Sort**](/sorting/quick-sort/README.md)
 Picks a "pivot" element, partitions the array around it, and recursively sorts the sub-arrays. Extremely fast in practice due to cache efficiency and low overhead.
 
 ### 6. [**Heap Sort**](#)
