@@ -77,7 +77,7 @@ Uses **divide-and-conquer**: splits the list in half, recursively sorts both hal
 ### 5. [**Quick Sort**](/sorting/quick-sort/README.md)
 Picks a "pivot" element, partitions the array around it, and recursively sorts the sub-arrays. Extremely fast in practice due to cache efficiency and low overhead.
 
-### 6. [**Heap Sort**](#)
+### 6. [**Heap Sort**](/sorting/heap-sort/README.md)
 Converts the array into a max heap and repeatedly extracts the maximum element. Guarantees O(n log n) performance regardless of input distribution.
 
 ### 7. [**Counting Sort**](#)
