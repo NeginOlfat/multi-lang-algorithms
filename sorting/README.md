@@ -80,7 +80,7 @@ Picks a "pivot" element, partitions the array around it, and recursively sorts t
 ### 6. [**Heap Sort**](/sorting/heap-sort/README.md)
 Converts the array into a max heap and repeatedly extracts the maximum element. Guarantees O(n log n) performance regardless of input distribution.
 
-### 7. [**Counting Sort**](#)
+### 7. [**Counting Sort**](/sorting/counting-sort/README.md)
 Counts occurrences of each value and reconstructs the sorted list using those counts. Not comparison-based — only works for integer-like data within a known range.
 
 ### 8. [**Radix Sort**](#)
