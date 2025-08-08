@@ -83,7 +83,7 @@ Converts the array into a max heap and repeatedly extracts the maximum element. 
 ### 7. [**Counting Sort**](/sorting/counting-sort/README.md)
 Counts occurrences of each value and reconstructs the sorted list using those counts. Not comparison-based — only works for integer-like data within a known range.
 
-### 8. [**Radix Sort**](#)
+### 8. [**Radix Sort**](/sorting/radix-sort/README.md)
 Sorts numbers digit by digit from least significant to most significant using counting sort as a subroutine. Runs in linear time for fixed-size integers.
 
 ### 9. [**Shell Sort**](#)
