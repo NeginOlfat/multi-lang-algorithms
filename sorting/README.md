@@ -86,7 +86,7 @@ Counts occurrences of each value and reconstructs the sorted list using those co
 ### 8. [**Radix Sort**](/sorting/radix-sort/README.md)
 Sorts numbers digit by digit from least significant to most significant using counting sort as a subroutine. Runs in linear time for fixed-size integers.
 
-### 9. [**Shell Sort**](#)
+### 9. [**Shell Sort**](/sorting/shell-sort/README.md)
 An optimized version of insertion sort that compares elements separated by a gap. The gap decreases over time, allowing far-away elements to move quickly toward their correct positions. Performs well in real-world scenarios despite theoretical worst-case performance.
 
 ### 10. [**Bucket Sort**](#)
