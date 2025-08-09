@@ -52,6 +52,12 @@ Sorted: [11, 12, 22, 25, 34, 64, 90] → Ascending Order
 | **Radix Sort**     | O(d × n)      | O(d × n)      | O(d × n)      | O(n + k)    | ✅ Yes   | ❌ No      | Excellent for fixed-length keys (e.g., phone numbers) |
 | **Shell Sort**     | O(n log n)    | O(n^1.3) approx | O(n²)       | O(1)        | ❌ No    | ✅ Yes     | Generalization of Insertion Sort; efficient in practice |
 | **Bucket Sort**    | O(n + k)      | O(n + k)      | O(n²)         | O(n + k)    | ✅ Yes   | ❌ No      | Works best when input is uniformly distributed |
+| **Cycle Sort**     | O(n)          | O(n)          | O(n)          | O(1)        | ❌ No    | ✅ Yes     | Minimizes writes; useful in flash memory |
+| **Comb Sort**      | O(n log n)    | O(n log n)    | O(n²)         | O(1)        | ❌ No    | ✅ Yes     | Improved Bubble Sort; faster in practice |
+| **Pigeonhole Sort**| O(n + k)      | O(n + k)      | O(n + k)      | O(n + k)    | ✅ Yes   | ❌ No      | For small k; similar to Counting Sort |
+| **Tim Sort**       | O(n)          | O(n log n)    | O(n log n)    | O(n)        | ✅ Yes   | ❌ No      | Hybrid (Merge + Insertion); used in Python/Java |
+| **Intro Sort**     | O(n log n)    | O(n log n)    | O(n log n)    | O(log n)    | ❌ No    | ✅ Yes     | Hybrid (Quick + Heap + Insertion); used in C++ std::sort 
+
 
 > ⚠️ Note:  
 > - `n` = number of elements  
@@ -92,20 +98,58 @@ An optimized version of insertion sort that compares elements separated by a gap
 ### 10. [**Bucket Sort**](/sorting/bucket-sort/README.md)
 Distributes elements into a number of "buckets". Each bucket is then sorted individually (often with another algorithm like insertion sort). Most effective when input is uniformly distributed across a range.
 
+### 11. [**Cycle Sort**](/sorting/cycle-sort/README.md)  
+Minimizes the number of writes by placing each element in its correct position in cycles. Ideal when write operations are expensive (e.g., flash memory).
+
+### 12. [**Comb Sort**](/sorting/comb-sort/README.md)  
+Improves Bubble Sort by comparing elements with a large gap that shrinks over time. More efficient than Bubble Sort in practice.
+
+### 13. [**Pigeonhole Sort**](/sorting/pigeonhole-sort/README.md)  
+Similar to Counting Sort but stores actual elements (not just counts) in "pigeonholes". Best when range `k` is close to `n`.
+
+### 14. [**Tim Sort**](/sorting/tim-sort/README.md)  
+A hybrid stable sorting algorithm (Merge + Insertion) that performs well on real-world data. Used in **Python's `sorted()`** and **Java's `Arrays.sort()`**.
+
+### 15. [**Intro Sort**](/sorting/intro-sort/README.md)  
+A hybrid algorithm (Quick + Heap + Insertion) that starts with Quick Sort, switches to Heap Sort if recursion depth is too high, and uses Insertion Sort for small arrays. Used in **C++ `std::sort()`**.
+
 ---
 
 ## 🎯 When to Use Which Algorithm?
 
+
 | Scenario                                | Recommended Algorithm(s)                     |
 |----------------------------------------|----------------------------------------------|
-| Small dataset (< 50 elements)           | Insertion Sort                               |
-| Need stable sorting                     | Merge Sort, Counting Sort, Radix Sort, Bucket Sort |
-| Memory is limited                       | Heap Sort, Quick Sort, Selection Sort, Shell Sort |
-| Average performance matters             | Quick Sort                                   |
-| Worst-case performance matters          | Merge Sort, Heap Sort                        |
-| Sorting integers in small range         | Counting Sort                                |
+| Small dataset (< 50 elements)           | Insertion Sort, Comb Sort                    |
+| Need stable sorting                     | Merge Sort, Tim Sort, Counting, Radix, Bucket, Pigeonhole |
+| Memory is limited                       | Heap Sort, Intro Sort, Selection, Shell, Cycle |
+| Average performance matters             | Quick Sort, Intro Sort, Tim Sort             |
+| Worst-case performance matters          | Merge Sort, Heap Sort, Intro Sort, Tim Sort  |
+| Sorting integers in small range         | Counting Sort, Pigeonhole Sort               |
 | Sorting strings or fixed-length numbers | Radix Sort                                   |
-| Nearly sorted data                      | Insertion Sort, Shell Sort                   |
+| Nearly sorted data                      | Insertion Sort, Tim Sort, Comb Sort, Shell Sort |
 | Uniformly distributed floating-point data | Bucket Sort                              |
+| Minimizing write operations             | Cycle Sort                                   |
+| Real-world data with runs               | Tim Sort                                     |
+| Standard library implementation         | Intro Sort (C++), Tim Sort (Python/Java) 
 
 ---
+## 🚀 Next Steps
+
+Explore each algorithm in detail:
+
+[Bubble Sort](/sorting/bubble-sort/README.md) |  
+[Selection Sort](/sorting/selection-sort/README.md) |  
+[Insertion Sort](/sorting/insertion-sort/README.md) |  
+[Merge Sort](/sorting/merge-sort/README.md) |  
+[Quick Sort](/sorting/quick-sort/README.md) |  
+[Heap Sort](/sorting/heap-sort/README.md) |  
+[Counting Sort](/sorting/counting-sort/README.md) |  
+[Radix Sort](/sorting/radix-sort/README.md) |  
+[Shell Sort](/sorting/shell-sort/README.md) |  
+[Bucket Sort](/sorting/bucket-sort/README.md) |  
+[Cycle Sort](/sorting/cycle-sort/README.md) |  
+[Comb Sort](/sorting/comb-sort/README.md) |  
+[Pigeonhole Sort](/sorting/pigeonhole-sort/README.md) |  
+[Tim Sort](/sorting/tim-sort/README.md) |  
+[Intro Sort](/sorting/intro-sort/README.md)
