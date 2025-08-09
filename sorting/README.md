@@ -89,7 +89,7 @@ Sorts numbers digit by digit from least significant to most significant using co
 ### 9. [**Shell Sort**](/sorting/shell-sort/README.md)
 An optimized version of insertion sort that compares elements separated by a gap. The gap decreases over time, allowing far-away elements to move quickly toward their correct positions. Performs well in real-world scenarios despite theoretical worst-case performance.
 
-### 10. [**Bucket Sort**](#)
+### 10. [**Bucket Sort**](/sorting/bucket-sort/README.md)
 Distributes elements into a number of "buckets". Each bucket is then sorted individually (often with another algorithm like insertion sort). Most effective when input is uniformly distributed across a range.
 
 ---
