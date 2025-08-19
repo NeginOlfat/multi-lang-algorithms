@@ -162,4 +162,4 @@ We’ll go through each position and complete cycles.
 
 Choose your preferred language to view implementation:
 
-[Python](/sorting/cycle-sort/python/cycle_sort.py) | [Java](/sorting/cycle-sort/java/CycleSort.java) | [JavaScript](/sorting/cycle-sort/javascript/cycle-sort.js) | [C++](#) | [C#](#)
+[Python](/sorting/cycle-sort/python/cycle_sort.py) | [Java](/sorting/cycle-sort/java/CycleSort.java) | [JavaScript](/sorting/cycle-sort/javascript/cycle-sort.js) | [C++](/sorting/cycle-sort/C++/cycle_sort.cpp) | [C#](/sorting/cycle-sort/csharp/CycleSort.cs)

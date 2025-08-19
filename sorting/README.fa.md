@@ -102,7 +102,7 @@
 ### 11. [**مرتب‌سازی چرخه‌ای**](/sorting/cycle-sort/README.fa.md)  
 هر عنصر را در مکان صحیح خود قرار می‌دهد و تعداد نوشتن‌ها را به حداقل می‌رساند. زمانی ایده‌آل است که عملیات نوشتن گران است (مثلاً حافظه فلش).
 
-### 12. [**مرتب‌سازی ترک**](/sorting/comb-sort/README.fa.md)  
+### 12. [**مرتب‌سازی شانه‌ای**](/sorting/comb-sort/README.fa.md)  
 بهبودی از مرتب‌سازی حبابی که با فاصله بزرگی شروع می‌شود و به تدریج کاهش می‌یابد. در عمل نسبت به مرتب‌سازی حبابی کارآمدتر است.
 
 ### 13. [**مرتب‌سازی کبوتری**](/sorting/pigeonhole-sort/README.fa.md)  
@@ -150,7 +150,7 @@
 [مرتب‌سازی شِل](/sorting/shell-sort/README.fa.md) |  
 [مرتب‌سازی سطلی](/sorting/bucket-sort/README.fa.md) |  
 [مرتب‌سازی چرخه‌ای](/sorting/cycle-sort/README.fa.md) |  
-[مرتب‌سازی ترک](/sorting/comb-sort/README.fa.md) |  
+[مرتب‌سازی شانه‌ای](/sorting/comb-sort/README.fa.md) |  
 [مرتب‌سازی کبوتری](/sorting/pigeonhole-sort/README.fa.md) |  
 [مرتب‌سازی تیم](/sorting/tim-sort/README.fa.md) |  
 [مرتب‌سازی ترکیبی](/sorting/intro-sort/README.fa.md)
