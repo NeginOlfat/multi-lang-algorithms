@@ -14,7 +14,7 @@ It’s **in-place**, **predictable**, and ideal when worst-case performance matt
 ## 📈 Time Complexity
 
 | Case      | Time       |
-|-----------|------------|
+|:---------:|:----------:|
 | Best      | O(n log n) |
 | Average   | O(n log n) |
 | Worst     | O(n log n) |

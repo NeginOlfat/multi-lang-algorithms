@@ -9,7 +9,7 @@ Bucket Sort performs exceptionally well when the input is **uniformly distribute
 ## 📈 Time Complexity
 
 | Case      | Time               |
-|-----------|--------------------|
+|:---------:|:------------------:|
 | Best      | O(n + k)           |
 | Average   | O(n + k)           |
 | Worst     | O(n²)              |

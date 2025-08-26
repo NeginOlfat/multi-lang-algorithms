@@ -12,7 +12,7 @@ Unlike Bubble Sort, it makes at most `n-1` swaps — making it useful when memor
 ## 📈 Time Complexity
 
 | Case      | Time       |
-|-----------|------------|
+|:---------:|:----------:|
 | Best      | O(n²)      |
 | Average   | O(n²)      |
 | Worst     | O(n²)      |
@@ -77,7 +77,7 @@ Let’s sort: `[64, 25, 12, 22, 11]`
 
 <br />
 
-## ➡️ Next Steps
+## 💻 Next Steps
 
 Choose your preferred language to view implementation:
 

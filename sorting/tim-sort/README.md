@@ -15,7 +15,7 @@ Invented by **Tim Peters** in 2002 for the **Python programming language**, Tim 
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(n)         |
 | Average   | O(n log n)   |
 | Worst     | O(n log n)   |

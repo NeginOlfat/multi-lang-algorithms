@@ -12,7 +12,7 @@ function fibonacciRecursive(n) {
     return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
 }
 ```
-This method uses a straightforward recursive approach, where the function calls itself to calculate the Fibonacci numbers. It has a high time complexity due to repeated calculations for the same values, resulting in exponential time complexity O(2ⁿ) .
+This method uses a straightforward recursive approach, where the function calls itself to calculate the Fibonacci numbers. It has a high time complexity due to repeated calculations for the same values, resulting in exponential time complexity O(2ⁿ).
 
 <br />
 
@@ -30,7 +30,7 @@ function fibonacciIterative(n) {
     return b;
 }
 ```
-This method uses a loop to calculate Fibonacci numbers iteratively . It avoids the overhead of multiple function calls found in recursion. It has a linear time complexity O(n) and constant space complexity O(1) , making it one of the most practical approaches.
+This method uses a loop to calculate Fibonacci numbers iteratively. It is more efficient than the recursive method as it avoids the overhead of multiple function calls and has a linear time complexity O(n).
 
 <br />
 
@@ -102,17 +102,7 @@ function fibonacciMatrix(n) {
 ```
 This method uses matrix exponentiation to compute the nth Fibonacci number efficiently. It relies on the identity:
 
-$$
-\begin{bmatrix}
-F(n+1) & F(n) \\
-F(n) & F(n-1)
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 1 \\
-1 & 0
-\end{bmatrix}^n
-$$
+![Fibonacci Matrix](/assets/FibonacciMatrix.png)
 
 To find `F(n)`:
 - Raise the transformation matrix `[[1, 1], [1, 0]]` to the power `n - 1`.
@@ -157,8 +147,9 @@ function fibonacciFastDoubling(n) {
 ```
 This method leverages Fibonacci identities for fast computation:
 
-- $ F(2k) = F(k) \cdot (2F(k+1) - F(k)) $
-- $ F(2k + 1) = F(k+1)^2 + F(k)^2 $
+![Fibonacci Fast Doubling : F(2k) = F(k) . (2F(k+1) - F(k))](/assets/FibonacciFD1.png)
+![Fibonacci Fast Doubling : F(2k + 1) = F(k+1)^2 + F(k)^2](/assets/FibonacciFD2.png)
+
 
 The function recursively computes `[F(k), F(k+1)]` and combines them based on whether `n` is even or odd.
 

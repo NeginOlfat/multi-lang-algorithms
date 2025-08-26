@@ -9,7 +9,7 @@ It is **extremely fast** when the range of input values (k) is small relative to
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(n + k)     |
 | Average   | O(n + k)     |
 | Worst     | O(n + k)     |

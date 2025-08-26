@@ -13,7 +13,7 @@ Pigeonhole Sort is very similar to **Counting Sort**, but instead of storing cou
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(n + k)     |
 | Average   | O(n + k)     |
 | Worst     | O(n + k)     |

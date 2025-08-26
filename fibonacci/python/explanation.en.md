@@ -13,7 +13,7 @@ def fibonacci_recursive(n):
     else:
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 ```
-This method uses a straightforward recursive approach, where the function calls itself to calculate the Fibonacci numbers. It has a high time complexity due to repeated calculations for the same values.
+This method uses a straightforward recursive approach where the function calls itself to calculate the Fibonacci numbers. It has a high time complexity due to repeated calculations for the same values, resulting in exponential time complexity O(2ⁿ).
 
 <br/>
 
@@ -105,17 +105,9 @@ def fibonacci_matrix(n):
  ```
 This method uses matrix exponentiation to compute the nth Fibonacci number efficiently. It relies on the identity:
 
-$$
-\begin{bmatrix}
-F(n+1) & F(n) \\
-F(n) & F(n-1)
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 1 \\
-1 & 0
-\end{bmatrix}^n
-$$
+
+![Fibonacci Matrix](/assets/FibonacciMatrix.png)
+
 
 To find `F(n)`:
 - Raise the transformation matrix `[[1, 1], [1, 0]]` to the power `n - 1`.
@@ -158,8 +150,9 @@ def fibonacci_fast_doubling(n):
 ```
 This method leverages Fibonacci identities for fast computation:
 
-- $ F(2k) = F(k) \cdot (2F(k+1) - F(k)) $
-- $ F(2k + 1) = F(k+1)^2 + F(k)^2 $
+![Fibonacci Fast Doubling : F(2k) = F(k) . (2F(k+1) - F(k))](/assets/FibonacciFD1.png)
+![Fibonacci Fast Doubling : F(2k + 1) = F(k+1)^2 + F(k)^2](/assets/FibonacciFD2.png)
+
 
 The function recursively computes `[F(k), F(k+1)]` and combines them based on whether `n` is even or odd.
 

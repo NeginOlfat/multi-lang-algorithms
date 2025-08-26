@@ -12,7 +12,7 @@ This creates a reliable, predictable, and efficient sort — ideal for teaching 
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(n log n)   |
 | Average   | O(n log n)   |
 | Worst     | O(n log n)   |
@@ -107,7 +107,7 @@ Merge Phase (Bottom-Up):
 
 <br />
 
-## ➡️ Next Steps
+## 💻 Next Steps
 
 Choose your preferred language to view implementation:
 

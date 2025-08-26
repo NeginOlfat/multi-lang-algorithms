@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 Read this in other languages: [فارسی](/sorting/quick-sort/README.fa.md)
 
-=======
->>>>>>> 99c1bb51926d76b8bdb027890ad75e188651895d
 # 🔴 Quick Sort Algorithm
 
 A highly efficient **divide-and-conquer** sorting algorithm that works by selecting a "pivot" element and partitioning the array around it.
@@ -15,7 +12,7 @@ Quick Sort is the default sorting algorithm in many standard libraries due to it
 ## 📈 Time Complexity
 
 | Case      | Time             |
-|-----------|------------------|
+|:---------:|:----------------:|
 | Best      | O(n log n)       |
 | Average   | O(n log n)       |
 | Worst     | O(n²)            |
@@ -94,7 +91,7 @@ This continues until fully sorted.
 
 <br />
 
-## ➡️ Next Steps
+## 💻 Next Steps
 Choose your preferred language to view implementation:
 
 [Python](/sorting/quick-sort/python/quick_sort.py) | [Java](/sorting/quick-sort/java/QuickSort.java) | [JavaScript](/sorting/quick-sort/javascript/quick-sort.js) | [C++](/sorting/quick-sort/c++/quick_sort.cpp) | [C#](/sorting/quick-sort/csharp/QuickSort.cs)

@@ -14,7 +14,7 @@ Invented by **David Musser** in 1997, **Intro Sort** (Introspective Sort) is des
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(n log n)   |
 | Average   | O(n log n)   |
 | Worst     | O(n log n)   |

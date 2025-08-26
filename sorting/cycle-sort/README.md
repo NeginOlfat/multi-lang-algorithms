@@ -11,7 +11,7 @@ Unlike most sorting algorithms that focus on minimizing comparisons or time, **C
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(n)         |
 | Average   | O(n)         |
 | Worst     | O(n)         |

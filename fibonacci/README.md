@@ -14,7 +14,10 @@ This repository contains implementations of the Fibonacci function in multiple p
 <br />
 
 ## ℹ️ What is a Factorial?
-The **Fibonacci sequence** is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1. The sequence typically looks like this: `0, 1, 1, 2, 3, 5, 8, 13, 21, ...`
+The **Fibonacci sequence** is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1. The sequence typically looks like this: 
+$$
+0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+$$
 
 
 
@@ -53,7 +56,7 @@ This project aims to demonstrate various implementations of the Fibonacci functi
 ### 📊 Comparison of Fibonacci Algorithms
 
 | Method                  | Time Complexity | Space Complexity | Notes |
-|:----:|:----:|:----:|:----:|
+|:----|:----:|:----:|:----|
 | **Recursive**           | O(2ⁿ)            | O(n)              | Simple but very slow. Avoid for large `n`. |
 | **Iterative**           | O(n)             | O(1)              | Fast and memory efficient. Good for most cases. |
 | **Memoization (Top-down)** | O(n)          | O(n)              | Improves recursion with caching. Useful if called multiple times. |

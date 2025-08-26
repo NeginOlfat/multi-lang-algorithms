@@ -9,7 +9,7 @@ After each pass, the largest element “bubbles up” to its correct position.
 ## 📈 Time Complexity
 
 | Case      | Time       |
-|-----------|------------|
+|:---------:|:----------:|
 | Best      | O(n)       |
 | Average   | O(n²)      |
 | Worst     | O(n²)      |
@@ -76,7 +76,7 @@ Each pass compares adjacent pairs and swaps when needed.
 
 <br />
 
-## ➡️ Next Steps
+## 💻 Next Steps
 
 Choose your preferred language to view implementation:
 

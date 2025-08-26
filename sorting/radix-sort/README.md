@@ -9,7 +9,7 @@ Radix Sort leverages the idea that numbers can be sorted digit by digit, achievi
 ## 📈 Time Complexity
 
 | Case      | Time         |
-|-----------|--------------|
+|:---------:|:------------:|
 | Best      | O(d × n)     |
 | Average   | O(d × n)     |
 | Worst     | O(d × n)     |

@@ -13,7 +13,7 @@ This makes it efficient for **small or nearly sorted datasets**.
 ## 📈 Time Complexity
 
 | Case      | Time       |
-|-----------|------------|
+|:---------:|:----------:|
 | Best      | O(n)       |
 | Average   | O(n²)      |
 | Worst     | O(n²)      |
@@ -80,7 +80,7 @@ Let’s sort: `[12, 11, 13, 5, 6]`
 
 <br />
 
-## ➡️ Next Steps
+## 💻 Next Steps
 
 Choose your preferred language to view implementation:
 
