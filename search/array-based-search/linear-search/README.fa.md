@@ -48,4 +48,4 @@
 
 زبان مورد نظر خود را برای مشاهده پیاده‌سازی انتخاب کنید:
 
-[Python](/search/linear-search/python/) | [Java](/search/linear-search/java/) | [JavaScript](/search/linear-search/javascript/) | [C++](/search/linear-search/cpp/) | [C#](/search/linear-search/csharp/)
+[Python](/search/array-based-search/linear-search/python/) | [Java](/search/array-based-search/linear-search/java/) | [JavaScript](/search/array-based-search/linear-search/javascript/) | [C++](/search/array-based-search/linear-search/cpp/) | [C#](/search/array-based-search/linear-search/csharp/)
