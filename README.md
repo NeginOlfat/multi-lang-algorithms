@@ -25,5 +25,10 @@ Each algorithm is implemented in the following languages:
 - [sorting](/sorting/README.md)
 - [search](/search/README.md)
 
-> 🔧 More coming soon
+
+<br />
+
+## 🙌 Acknowledgments
+- Inspired by classic textbooks: CLRS, "Algorithms" by Sedgewick
+- Community-driven learning platforms: [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
