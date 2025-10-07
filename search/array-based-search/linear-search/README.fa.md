@@ -1,4 +1,4 @@
-اِین صفحه را به زبان‌های دیگر بخوانید: [English](/search/linear-search/README.md)
+اِین صفحه را به زبان‌های دیگر بخوانید: [English](/search/array-based-search/linear-search/README.md)
 
 # 🔎 جستجوی خطی
 

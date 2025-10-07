@@ -1,4 +1,4 @@
-Read this in other languages: [فارسی](/search/linear-search/README.fa.md)
+Read this in other languages: [فارسی](/search/array-based-search/linear-search/README.fa.md)
 
 
 # 🔎 Linear Search
