@@ -15,8 +15,6 @@ Replace `Program.cs` with `TernarySearch.cs` (or rename it), or just paste the c
 dotnet run
 ```
 
----
-
 #### 3. **Create a test project (optional)**
 
 ```bash
@@ -37,9 +35,4 @@ dotnet add reference ../TernarySearchApp/TernarySearchApp.csproj
 
 ```bash
 dotnet test
-```
-
-✅ You should see:
-```
-Passed!  ✅  10 of 10 tests passed.
 ```

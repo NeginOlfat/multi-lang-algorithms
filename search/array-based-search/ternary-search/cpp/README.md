@@ -37,9 +37,3 @@ Compile both the implementation and test file:
 g++ ternary_search.cpp ternary_search_test.cpp -lgtest -lgtest_main -lpthread -o test_ternary_search
 ./test_ternary_search
 ```
-
-✅ You should see:
-```
-[==========] Running 9 tests from 1 test suite.
-[  PASSED  ] 9 tests.
-```
