@@ -16,7 +16,7 @@ Search algorithms are essential tools for locating data efficiently within data 
 5. [**Exponential Search**](/search/array-based-search/exponential-search/README.md): Finds the range where the element may exist using powers of two, then applies binary search.
 6. [**Ternary Search**](/search/array-based-search/ternary-search/README.md): Divides a sorted unimodal array into three parts to find min/max or a target value.
 7. [**Fibonacci Search**](/search/array-based-search/fibonacci-search/README.md): Similar to binary search but uses Fibonacci numbers to split the array.
-8. **Sentinel Search**: A variation of linear search that places a sentinel at the end to avoid boundary checks.
+8. [**Sentinel Search**](/search/array-based-search/sentinel-search/README.md): A variation of linear search that places a sentinel at the end to avoid boundary checks.
 9. **Self-Organizing Search**: Adjusts the list (e.g., move-to-front) after each access based on frequency.
 10. **Binary Search on Answer**: Applies binary search over a range of possible answers (common in optimization problems).
 
