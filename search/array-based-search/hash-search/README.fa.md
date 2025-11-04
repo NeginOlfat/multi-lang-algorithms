@@ -361,4 +361,4 @@ Load Factor (α) = Number of Entries / Table Size
 
 زبان مورد نظر خود را برای مشاهده پیاده‌سازی انتخاب کنید:
 
-
+[Python](/search/array-based-search/hash-search/python/) |  [JavaScript](/search/array-based-search/hash-search/javascript/) 
