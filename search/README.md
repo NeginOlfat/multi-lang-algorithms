@@ -19,7 +19,7 @@ Search algorithms are essential tools for locating data efficiently within data 
 8. [**Sentinel Search**](/search/array-based-search/sentinel-search/README.md): A variation of linear search that places a sentinel at the end to avoid boundary checks.
 9. [**Self-Organizing Search**](/search/array-based-search/self-organizing-search/README.md): Adjusts the list (e.g., move-to-front) after each access based on frequency.
 10. [**Binary Search on Answer**](/search/array-based-search/binary-search-on-answer/README.md): Applies binary search over a range of possible answers (common in optimization problems).
-11. **Hash Search**: Uses a hash function to compute an index into an array (hash table) for fast data retrieval (average O(1) time).
+11. [**Hash Search**](/search/array-based-search/hash-search/README.md): Uses a hash function to compute an index into an array (hash table) for fast data retrieval (average O(1) time).
 
 ---
 
