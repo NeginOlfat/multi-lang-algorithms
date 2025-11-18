@@ -6,27 +6,13 @@ This repository contains **implementations of programming algorithms** across mu
 
 This repository aims to provide solutions to common programming challenges and demonstrate algorithmic concepts across different languages. Each language has its own folder containing relevant implementations and explanations.
 
-## 📦 Languages Supported
+## 🧩 Algorithms & Problems
+- [Factorial](/factorial/README.md)
+- [Fibonacci](/fibonacci/README.md)
+- [Sort](/sorting/README.md)
+- [Search](/search/README.md)
+- [Sring Matching]()
 
-Each algorithm is implemented in the following languages:
-
-- 🐍 **Python**
-- 🔵 **C#**
-- 🟨 **JavaScript**
-- 💜 **C++**
-- ☕ **Java**
-
-
-<br/>
-
-## 🧩 Algorithms & Problems Covered
-- [factorial](/factorial/README.md)
-- [fibonacci](/fibonacci/README.md)
-- [sorting](/sorting/README.md)
-- [search](/search/README.md)
-
-
-<br />
 
 ## 🙌 Acknowledgments
 - Inspired by classic textbooks: CLRS, "Algorithms" by Sedgewick
