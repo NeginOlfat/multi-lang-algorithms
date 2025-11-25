@@ -26,7 +26,7 @@ Search algorithms are essential tools for locating data efficiently within data 
 ### 🔗 Graph/Tree Search Algorithms
 1. [**Breadth-First Search (BFS)**](/search/graph-tree-search/breadth-first-search/README.md): Explores all neighbors at current depth before moving deeper (finds shortest path in unweighted graphs). 
 2. [**Depth-First Search (DFS)**](/search/graph-tree-search/depth-first-search/README.md): Explores as deep as possible in a branch before backtracking (useful for cycle detection, connectivity).
-3. **Iterative Deepening DFS (IDDFS)**: Performs DFS with increasing depth limits to combine advantages of BFS and DFS.
+3. [**Iterative Deepening DFS (IDDFS)**](/search/graph-tree-search/iterative-deepening-dfs/README.md): Performs DFS with increasing depth limits to combine advantages of BFS and DFS.
 4. **Bidirectional Search**: Simultaneously searches forward from start and backward from goal, meeting in the middle.
 
 <br />
