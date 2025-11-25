@@ -1,0 +1,33 @@
+## Output
+
+```
+Starting Bidirectional Search from 'A' to 'E'
+============================================================
+Forward search expanding node: A
+  Forward visited: [A]
+Current state - Forward frontier: [B, F]
+Current state - Backward frontier: [E]
+--------------------------------------------------
+Backward search expanding node: E
+  Backward visited: [E]
+Current state - Forward frontier: [B, F]
+Current state - Backward frontier: [D, J]
+--------------------------------------------------
+Forward search expanding node: B
+  Forward visited: [A, B, F]
+Current state - Forward frontier: [F, C, G]
+Current state - Backward frontier: [D, J]
+--------------------------------------------------
+Backward search expanding node: D
+  Backward visited: [E, D, J]
+  Intersection found at node: C
+
+Reconstructing path through intersection node: C
+Forward path (start -> intersection): [A, B, C]
+Backward path (intersection -> goal): [D, E]
+Complete path: [A, B, C, D, E]
+
+============================================================
+🎉 Path found! Length: 4
+Path: A -> B -> C -> D -> E
+```
