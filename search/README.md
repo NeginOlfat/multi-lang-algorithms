@@ -32,16 +32,18 @@ Search algorithms are essential tools for locating data efficiently within data 
 <br />
 
 > Note: BFS and DFS are general strategies applicable to both explicit graphs  and implicit state spaces.
-
+ 
 ---
 
 ### 🧠 State-Space Search
+
+[What is a state space search?](/search/state-space-search/state-space.md)
 
 #### **Uninformed (Blind) Search Algorithms**
 
 > These do not use domain-specific knowledge (on-heuristic).
 
-1. **Breadth-First Search (BFS)**: Explores all nodes at the current depth first (complete and optimal in unweighted graphs).
+1. [**Breadth-First Search (BFS)**](/search/state-space-search/bfs/README.md): Explores all nodes at the current depth first (complete and optimal in unweighted graphs).
 
 2. **Depth-First Search (DFS)**: Explores as deep as possible along each branch before backtracking.
 
@@ -50,6 +52,9 @@ Search algorithms are essential tools for locating data efficiently within data 
 4. **Depth-Limited Search**: DFS variant with a maximum depth limit to prevent infinite loops.
 
 5. **Iterative Deepening DFS (IDDFS)**: Combines DFS memory efficiency with BFS completeness via repeated depth-limited searches.
+
+<!-- **Bidirectional Search** -->
+
 
 
 #### 🧠 **Informed (Heuristic) Search Algorithms**
