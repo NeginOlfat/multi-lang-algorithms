@@ -45,16 +45,13 @@ Search algorithms are essential tools for locating data efficiently within data 
 
 1. [**Breadth-First Search (BFS)**](/search/state-space-search/bfs/README.md): Explores all nodes at the current depth first (complete and optimal in unweighted graphs).
 
-2. **Depth-First Search (DFS)**: Explores as deep as possible along each branch before backtracking.
+2. [**Depth-First Search (DFS)**](/search/state-space-search/dfs/README.md): Explores as deep as possible along each branch before backtracking.
 
 3. **Uniform-Cost Search (UCS)**: Expands the node with the lowest path cost (optimal for weighted graphs).
 
 4. **Depth-Limited Search**: DFS variant with a maximum depth limit to prevent infinite loops.
 
 5. **Iterative Deepening DFS (IDDFS)**: Combines DFS memory efficiency with BFS completeness via repeated depth-limited searches.
-
-<!-- **Bidirectional Search** -->
-
 
 
 #### 🧠 **Informed (Heuristic) Search Algorithms**
